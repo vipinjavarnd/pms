@@ -1,0 +1,30 @@
+#card {
+  width: 25rem;
+  margin-top: 80px;
+}
+#loginBtn {
+  width: 350px;
+}
+#regBtn {
+  width: 350px;
+}
+#regForm {
+  width: 25rem;
+  margin-top: 80px;
+}
+
+thead {
+  font-weight: bold;
+}
+
+#productlist {
+  width: 80rem;
+  margin-top: 30px;
+}
+#addProduct {
+  width: 25rem;
+  margin-top: 80px;
+}
+#productBtn {
+  width: 350px;
+}

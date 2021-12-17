@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="./../../public/css/style.css">
+</head>
+
+<body>
+    <!----header-->
+    <div id="heading">
+        <h3>Product Management System</h3>
+    </div>
+
+    <ul>
+        <li><a class=" active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <!-- main site -->
+
+    <main id="site-main">
+        <div class="container">
+            <div class="box-navdevflex-justify-between">
+                <a href="/register" class="border-shadow">
+                    <span class="text-gradient">New user</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- maine site end -->
+
+        <!-- form handling -->
+        <form action="/" method="POST">
+            <table border="1" id="results">
+                <thead>
+                    <tr>
+                        <th>product name</th>
+                        <th>price</th>
+                        <th>quantity in stock</th>
+                        <th>vendor</th>
+                        <th>warranty</th>
+                        <th colspan="2">actions</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>asdasd</td>
+                        <td>asddsfs</td>
+                        <td>sdfsd</td>
+                        <td>qwer</td>
+                        <td>hjkl</td>
+                        <td><a href="/edit">Edit</a></td>
+                        <td><a href="/delete">Delete </a></td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </form>
+        <!-- /form handling -->
+    </main>
+
+</body>
+
+</html>
