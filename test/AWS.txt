@@ -1,0 +1,9 @@
+Service models in cloud computing
+IaaS(Infrastructure as a Service) make your own Pizza
+PaaS(Platform as a Service)Go and sit in a hotel and order a pizza 
+SaaS(Software as a Service) just order a pizza online and consume it
+
+Deployement model
+public cloud
+private cloud
+hybrid cloud
